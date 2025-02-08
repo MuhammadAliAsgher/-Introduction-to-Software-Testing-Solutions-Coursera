@@ -1,20 +1,3 @@
-/*
- * Copyright (c) 2009,  Sarah Heckman, Laurie Williams, Dright Ho
- * All Rights Reserved.
- *
- * Permission has been explicitly granted to the University of Minnesota
- * Software Engineering Center to use and distribute this source for
- * educational purposes, including delivering online education through
- * Coursera or other entities.
- *
- * No warranty is given regarding this software, including warranties as
- * to the correctness or completeness of this software, including
- * fitness for purpose.
- *
- * Modifications
- * 20171113 - Michael W. Whalen - Extended with additional recipe.
- * 20171114 - Ian J. De Silva   - Updated to JUnit 4; fixed variable names.
- */
 package edu.ncsu.csc326.coffeemaker;
 
 import static org.junit.Assert.*;
@@ -27,14 +10,6 @@ import org.junit.Test;
 import edu.ncsu.csc326.coffeemaker.exceptions.RecipeException;
 import org.mockito.ArgumentCaptor;
 
-
-/**
- * Unit tests for CoffeeMaker class.
- *
- * @author Sarah Heckman
- *
- * Extended by Mike Whalen
- */
 
 public class CoffeeMakerTest {
 
